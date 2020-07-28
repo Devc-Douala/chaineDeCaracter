@@ -1,0 +1,25 @@
+{
+  "name": "@hervegithub/chainedecaracter",
+  "version": "1.0.1",
+  "description": "Simplification de l'utilisation des fonctions Js sur les chaines de caractère.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devc-Douala/chaineDeCaracter.git"
+  },
+  "author": "hervegithub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devc-Douala/chaineDeCaracter/issues"
+  },
+  "homepage": "https://github.com/Devc-Douala/chaineDeCaracter#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@hervegithub"
+  },
+  "keywords": [
+    "Typescript"
+  ]
+}
