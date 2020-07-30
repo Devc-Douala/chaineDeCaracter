@@ -40,7 +40,7 @@ class chaine
         Ex:  const str = 'JavaScript'; console.log(str.repeat(2)); // 'JavaScriptJavaScript'
         =================================
     */
-    RepetitionDeLaChaine(str:string, nb:number){
+    repetitionDeLaChaine(str:string, nb:number){
         let nouvelleChaine = str.repeat(nb);
         return nouvelleChaine;
     }
