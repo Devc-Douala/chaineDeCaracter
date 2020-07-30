@@ -29,17 +29,6 @@ class chaine
     recupereCaractereA(id:number, str:string){
         return str.charAt(id);
     }
-    /**Fonction qui change un caractere dans une chaine de caractere
-        =================================
-        @str : string
-        @carac : string
-        @id : numder
-        retourne un string
-        ================================
-     */
-    changeCaractere(str:string ,id:number,carac:string){
-        let position = str.charAt(id);
-        return str.replace (position,carac);
-    }
+
     
 }
