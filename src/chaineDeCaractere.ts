@@ -30,5 +30,20 @@ class chaine
         return str.charAt(id);
     }
 
+    /** Fonction qui permet de faire la répétition d'une
+        chaine de caractère un certain nombre de fois.
+        =================================
+        @chaine : string
+        @nb  : number
+        Retourne une nouvelle chaîne avec le nombre 
+        spécifié de copies de la chaîne existante.
+        Ex:  const str = 'JavaScript'; console.log(str.repeat(2)); // 'JavaScriptJavaScript'
+        =================================
+    */
+    repetitionDeLaChaine(str:string, nb:number){
+        let nouvelleChaine = str.repeat(nb);
+        return nouvelleChaine;
+    }
+
     
 }
